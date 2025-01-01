@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    background-color: rgb(126, 194, 214);
+    /* justify-content: center; */
+}
+
+*{
+    text-decoration: none;
+    font-family: calibri;
+}
+
+br{
+    padding: 5px;
+}
+
+.container{
+    padding: 100px;
+    background-color: aliceblue;
+    text-align: center;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.pic-container{
+    display: flex;
+    width: 400px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 300px;
+    margin-left: 10px;
+    border: 15px;
+}
+
+.message{
+    font-size: 18px;
+}
+
+.pictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(46, 144, 230);
+    border-radius: 10px;
+    gap: 10px;
+    width: 500px;
+    height: 500px;
+}
+
+img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.achie-container{
+    overflow: hidden;
+    width: 5%;
+    height: 80%;
+    transition: width 0.5s ease;
+}
+
+.achie-container:hover{
+    width: 60%;
+    border-radius: 20px;
+}
+
+#achie:hover{
+    width: 40%;
+}
+
+
